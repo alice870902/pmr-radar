@@ -18,7 +18,15 @@ ALL_SOURCES = [
     {"id": "tapedpmr", "name": "台灣兒童復健醫學會",       "url": "https://www.tapedpmr.org.tw"},
     {"id": "tsnr",     "name": "台灣神經復健醫學會",        "url": "https://www.tsnr.org.tw"},
     {"id": "tpta",     "name": "台灣物理治療學會",          "url": "https://www.tpta.org.tw"},
+    {"id": "otaft",    "name": "台灣職能治療學會",          "url": "https://www.ot.org.tw"},
+    {"id": "tasm",     "name": "台灣運動醫學醫學會",        "url": "https://www.tasm.org.tw"},
+    {"id": "tps",      "name": "台灣疼痛醫學會",            "url": "https://www.pain.org.tw"},
 ]
+
+CHINESE_MONTHS = {
+    "一": 1, "二": 2, "三": 3, "四": 4, "五": 5, "六": 6,
+    "七": 7, "八": 8, "九": 9, "十": 10, "十一": 11, "十二": 12,
+}
 
 
 def get_soup(url):
@@ -318,6 +326,135 @@ def scrape_tpta():
     return items
 
 
+# ─── OTAFT ───────────────────────────────────────────────────────────────────
+
+def scrape_otaft():
+    BASE = "https://www.ot.org.tw"
+    items, seen = [], set()
+    url = f"{BASE}/?action=physical-course"
+    soup = get_soup(url)
+    for tr in soup.select("table tr"):
+        link_el = tr.select_one("a[href*='physical-course-detail']")
+        if not link_el:
+            continue
+        href = urljoin(url, link_el["href"])
+        if href in seen:
+            continue
+        seen.add(href)
+        tds = tr.select("td")
+        date_raw = organizer = location = ""
+        for td in tds:
+            label = td.get("data-title", "")
+            if "課程日期" in label:
+                date_raw = td.get_text(strip=True)
+            elif "舉辦單位" in label:
+                organizer = td.get_text(strip=True)
+            elif "課程地點" in label:
+                location = td.get_text(strip=True)
+        can_register = bool(tr.select_one("a[href*='physical-course-apply']"))
+        items.append(make_item(
+            "otaft", "台灣職能治療學會", "activity",
+            link_el.text, href,
+            date_raw=date_raw, organizer=organizer, location=location,
+            can_register=can_register,
+        ))
+    time.sleep(0.3)
+    return items
+
+
+# ─── TASM ────────────────────────────────────────────────────────────────────
+
+def scrape_tasm():
+    BASE = "https://www.tasm.org.tw"
+    items, seen = [], set()
+    for page in range(1, MAX_PAGES + 1):
+        url = (f"{BASE}/news/info.asp" if page == 1
+               else f"{BASE}/news/list.asp?/{page}.html")
+        soup = get_soup(url)
+        for a in soup.select("a[href*='info.asp?/']"):
+            href = urljoin(url, a["href"])
+            if href in seen:
+                continue
+            seen.add(href)
+            text = a.get_text("\n", strip=True)
+            date_m = re.search(r"公告日期[：:]\s*(\d{4}/\d{1,2}/\d{1,2})", text)
+            date_raw = date_m.group(1) if date_m else ""
+            title_m = re.search(r"標題[：:]\s*(.+?)(?:\n|$)", text)
+            title = title_m.group(1).strip() if title_m else text.split("\n")[-1].strip()
+            if not title:
+                continue
+            items.append(make_item(
+                "tasm", "台灣運動醫學醫學會", "news",
+                title, href, date_raw=date_raw,
+                organizer="台灣運動醫學醫學會",
+            ))
+        next_link = soup.select_one(f"a[href*='list.asp?/{page + 1}.html']")
+        if not next_link:
+            break
+        time.sleep(0.3)
+    return items
+
+
+# ─── TPS ─────────────────────────────────────────────────────────────────────
+
+def scrape_tps():
+    BASE = "https://www.pain.org.tw"
+    # Activities are loaded via XHR from this content endpoint
+    url = f"{BASE}/index.php/educlass_page/educlass_page1_content/33/1/8/0"
+    page_url = f"{BASE}/index.php/educlass_page/index/33/1/8"
+    soup = get_soup(url)
+    items, seen = [], set()
+
+    for tr in soup.select("table tr"):
+        tds = tr.select("td")
+        if len(tds) < 3:
+            continue
+
+        # Date cell: "2026 八月 23"
+        date_text = tds[0].get_text(" ", strip=True)
+        year_m  = re.search(r"(\d{4})", date_text)
+        month_m = re.search(r"([一二三四五六七八九十]+)月", date_text)
+        day_m   = re.search(r"(\d{1,2})\s*$", date_text.strip())
+        date_raw = ""
+        if year_m and month_m and day_m:
+            month = CHINESE_MONTHS.get(month_m.group(1), 0)
+            if month:
+                date_raw = f"{year_m.group(1)}/{month:02d}/{int(day_m.group(1)):02d}"
+
+        # Title + metadata
+        full_text = tds[1].get_text("\n", strip=True)
+        lines = [l.strip() for l in full_text.split("\n") if l.strip()]
+        title = lines[0] if lines else ""
+        org_m  = re.search(r"主辦單位[：:]\s*(.+?)(?:\n|$)", full_text)
+        cred_m = re.search(r"允許學分[：:]\s*(.+?)(?:\n|$)", full_text)
+
+        # Status
+        status = tds[2].get_text(strip=True) if len(tds) > 2 else ""
+        can_register = status in ("早鳥報名", "報名中")
+
+        # Detail link (protocol-relative //www.pain.org.tw/...)
+        all_links = [a for a in tr.select("a") if a.get("href")]
+        if all_links:
+            href = urljoin(page_url, all_links[0]["href"])
+        else:
+            # No detail link — use page_url + title hash so each item gets a unique ID
+            href = f"{page_url}#{abs(hash(title)) % 99999}"
+
+        if not title or href in seen:
+            continue
+        seen.add(href)
+
+        items.append(make_item(
+            "tps", "台灣疼痛醫學會", "activity",
+            title, href,
+            date_raw=date_raw,
+            organizer=org_m.group(1).strip() if org_m else "台灣疼痛醫學會",
+            credits=cred_m.group(1).strip() if cred_m else "",
+            can_register=can_register,
+        ))
+    return items
+
+
 # ─── MAIN ────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
@@ -330,6 +467,9 @@ if __name__ == "__main__":
         (scrape_tapedpmr, "TAPEDPMR（兒童復健）"),
         (scrape_tsnr,     "TSNR（神經復健）"),
         (scrape_tpta,     "TPTA（物理治療）"),
+        (scrape_otaft,    "OTAFT（職能治療）"),
+        (scrape_tasm,     "TASM（運動醫學）"),
+        (scrape_tps,      "TPS（疼痛醫學）"),
     ]:
         print(f"Scraping {label}...")
         try:
