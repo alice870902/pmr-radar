@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>復健科進修雷達 🛰️</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", sans-serif; }
+    .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .spin { display: inline-block; animation: spin 1s linear infinite; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-200 min-h-screen">
+
+  <!-- Header -->
+  <header class="border-b border-slate-800 sticky top-0 bg-slate-950/95 backdrop-blur z-10">
+    <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+      <div>
+        <h1 class="text-base font-bold text-white">復健科進修雷達 🛰️</h1>
+        <p id="update-time" class="text-xs text-slate-500 mt-0.5">
+          <span class="spin">⟳</span> 載入中...
+        </p>
+      </div>
+      <p class="text-xs text-slate-600 hidden sm:block text-right">
+        非官方彙整，資料來源以原公告為準
+      </p>
+    </div>
+  </header>
+
+  <div class="max-w-4xl mx-auto px-4 py-5">
+
+    <!-- Filter bar -->
+    <div class="flex flex-wrap gap-2 mb-4">
+      <input
+        id="search"
+        type="text"
+        placeholder="🔍  搜尋課程、主辦單位..."
+        class="flex-1 min-w-48 bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm placeholder-slate-500 focus:outline-none focus:border-cyan-500 focus:bg-slate-800 transition-colors"
+      >
+      <label class="flex items-center gap-2 bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm cursor-pointer hover:border-slate-600 transition-colors select-none">
+        <input id="hide-past" type="checkbox" checked class="w-3.5 h-3.5 accent-cyan-500 cursor-pointer">
+        隱藏過期
+      </label>
+      <label class="flex items-center gap-2 bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm cursor-pointer hover:border-slate-600 transition-colors select-none">
+        <input id="only-register" type="checkbox" class="w-3.5 h-3.5 accent-green-500 cursor-pointer">
+        僅可報名
+      </label>
+    </div>
+
+    <!-- Stats -->
+    <p class="text-xs text-slate-500 mb-3">
+      找到 <span id="count" class="text-slate-300 font-medium">0</span> 個活動
+    </p>
+
+    <!-- List -->
+    <div id="list" class="space-y-2"></div>
+
+    <!-- Empty state -->
+    <div id="empty" class="hidden text-center py-24 text-slate-500">
+      <p class="text-5xl mb-4">🔍</p>
+      <p class="text-sm">找不到符合條件的課程</p>
+    </div>
+
+    <!-- Error state -->
+    <div id="error" class="hidden text-center py-24 text-slate-500">
+      <p class="text-5xl mb-4">⚠️</p>
+      <p class="text-sm">資料載入失敗，請重新整理頁面</p>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800 mt-12 py-6 text-center text-xs text-slate-700">
+    <p>資料自動彙整自各學會公開公告，僅顯示標題與連結並導回原站，非官方彙整。</p>
+    <p class="mt-1">實際資訊以原公告為準。</p>
+  </footer>
+
+  <script>
+    let allItems = [];
+
+    function todayStr() {
+      return new Date().toISOString().slice(0, 10);
+    }
+
+    function formatDateDisplay(dateStr) {
+      if (!dateStr) return '—';
+      // dateStr is YYYY-MM-DD
+      const parts = dateStr.split('-');
+      if (parts.length === 3) return `${parseInt(parts[1])}/${parseInt(parts[2])}`;
+      return dateStr;
+    }
+
+    function formatMonthDay(dateStr) {
+      if (!dateStr) return '';
+      const parts = dateStr.split('-');
+      if (parts.length >= 2) return `${parts[0].slice(2)}/${parts[1]}`;
+      return '';
+    }
+
+    async function loadData() {
+      try {
+        const res = await fetch('data/sumroc.json');
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+
+        allItems = (data.items || []).filter(i => i.type === 'activity');
+
+        const updated = new Date(data.updated_at);
+        const timeStr = updated.toLocaleString('zh-TW', {
+          month: 'numeric', day: 'numeric',
+          hour: '2-digit', minute: '2-digit'
+        });
+        document.getElementById('update-time').textContent = `最後更新：${timeStr}`;
+
+        render();
+      } catch (e) {
+        document.getElementById('update-time').textContent = '載入失敗';
+        document.getElementById('error').classList.remove('hidden');
+      }
+    }
+
+    function render() {
+      const search = document.getElementById('search').value.toLowerCase().trim();
+      const hidePast = document.getElementById('hide-past').checked;
+      const onlyRegister = document.getElementById('only-register').checked;
+      const today = todayStr();
+
+      let items = [...allItems];
+
+      if (hidePast) {
+        items = items.filter(item => !item.date_end || item.date_end >= today);
+      }
+      if (onlyRegister) {
+        items = items.filter(item => item.can_register);
+      }
+      if (search) {
+        items = items.filter(item =>
+          (item.title || '').toLowerCase().includes(search) ||
+          (item.organizer || '').toLowerCase().includes(search) ||
+          (item.location || '').toLowerCase().includes(search)
+        );
+      }
+
+      items.sort((a, b) => (a.date_start || '').localeCompare(b.date_start || ''));
+
+      document.getElementById('count').textContent = items.length;
+
+      const listEl = document.getElementById('list');
+      const emptyEl = document.getElementById('empty');
+
+      if (items.length === 0) {
+        listEl.innerHTML = '';
+        emptyEl.classList.remove('hidden');
+        return;
+      }
+
+      emptyEl.classList.add('hidden');
+
+      const today2 = todayStr();
+      listEl.innerHTML = items.map(item => {
+        const isPast = item.date_end && item.date_end < today2;
+        const isToday = item.date_start === today2;
+        const isSoon = !isPast && item.date_start && item.date_start <= addDays(today2, 7);
+
+        const dateColor = isPast ? 'text-slate-500' : isSoon ? 'text-amber-400' : 'text-cyan-400';
+        const cardOpacity = isPast ? 'opacity-40' : '';
+
+        const dateLabel = formatDateDisplay(item.date_start);
+        const dateEndLabel = item.date_end && item.date_end !== item.date_start
+          ? `<span class="text-slate-500 text-xs">～${formatDateDisplay(item.date_end)}</span>` : '';
+
+        return `
+          <div class="bg-slate-800/50 border border-slate-700/40 rounded-xl p-4 hover:border-slate-600/60 transition-all ${cardOpacity}">
+            <div class="flex gap-3 items-start">
+
+              <!-- Date badge -->
+              <div class="flex-shrink-0 text-center bg-slate-900/60 rounded-lg px-2.5 py-2 min-w-[52px]">
+                <div class="${dateColor} font-bold text-sm leading-tight tabular-nums">${dateLabel}</div>
+                ${dateEndLabel}
+              </div>
+
+              <!-- Content -->
+              <div class="flex-1 min-w-0">
+                <a href="${escHtml(item.url)}" target="_blank" rel="noopener noreferrer"
+                   class="font-medium text-white hover:text-cyan-400 transition-colors line-clamp-2 text-sm leading-snug">
+                  ${escHtml(item.title)}
+                </a>
+
+                ${item.location ? `<p class="mt-1 text-xs text-slate-500 truncate">${escHtml(item.location)}</p>` : ''}
+
+                <div class="mt-2 flex flex-wrap items-center gap-1.5">
+                  ${item.organizer ? `<span class="text-xs bg-slate-700/70 text-slate-400 px-2 py-0.5 rounded-full">${escHtml(item.organizer)}</span>` : ''}
+                  ${item.credits ? `<span class="text-xs bg-blue-950/70 text-blue-400 px-2 py-0.5 rounded-full">積分 ${escHtml(item.credits)}</span>` : ''}
+                  ${item.can_register ? `<span class="text-xs bg-green-950/70 text-green-400 px-2 py-0.5 rounded-full font-medium">✓ 可報名</span>` : ''}
+                  ${isToday ? `<span class="text-xs bg-amber-950/70 text-amber-400 px-2 py-0.5 rounded-full font-medium">今天</span>` : ''}
+                  ${isSoon && !isToday ? `<span class="text-xs text-amber-600 px-1">即將開課</span>` : ''}
+                </div>
+              </div>
+
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function escHtml(str) {
+      if (!str) return '';
+      return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    function addDays(dateStr, days) {
+      const d = new Date(dateStr);
+      d.setDate(d.getDate() + days);
+      return d.toISOString().slice(0, 10);
+    }
+
+    document.getElementById('search').addEventListener('input', render);
+    document.getElementById('hide-past').addEventListener('change', render);
+    document.getElementById('only-register').addEventListener('change', render);
+
+    loadData();
+  </script>
+
+</body>
+</html>
