@@ -211,7 +211,30 @@
       emptyEl.classList.add('hidden');
 
       const today2 = todayStr();
-      listEl.innerHTML = items.map(item => {
+      let currentMonth = null;
+      const parts = [];
+
+      items.forEach(item => {
+        const ym = item.date_start ? item.date_start.slice(0, 7) : '__none__';
+        if (ym !== currentMonth) {
+          currentMonth = ym;
+          const label = ym === '__none__' ? '日期未定'
+            : `${ym.slice(0, 4)} 年 ${parseInt(ym.slice(5))} 月`;
+          parts.push(`
+            <div class="col-span-full flex items-center gap-3 pt-2 pb-0.5">
+              <span class="flex-1 border-t border-slate-800"></span>
+              <span class="text-xs text-slate-500 font-medium tracking-widest">${label}</span>
+              <span class="flex-1 border-t border-slate-800"></span>
+            </div>
+          `);
+        }
+        parts.push(renderCard(item, today2));
+      });
+
+      listEl.innerHTML = parts.join('');
+    }
+
+    function renderCard(item, today2) {
         const isPast = item.date_end && item.date_end < today2;
         const isToday = item.date_start === today2;
         const isSoon = !isPast && item.date_start && item.date_start <= addDays(today2, 7);
@@ -258,7 +281,6 @@
             </div>
           </div>
         `;
-      }).join('');
     }
 
     function escHtml(str) {
