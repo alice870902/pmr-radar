@@ -32,7 +32,7 @@
   <div class="max-w-4xl mx-auto px-4 py-5">
 
     <!-- Filter bar -->
-    <div class="flex flex-wrap gap-2 mb-4">
+    <div class="flex flex-wrap gap-2 mb-3">
       <input
         id="search"
         type="text"
@@ -48,6 +48,9 @@
         僅可報名
       </label>
     </div>
+
+    <!-- Source filter chips -->
+    <div id="source-filters" class="flex flex-wrap gap-1.5 mb-4"></div>
 
     <!-- Stats -->
     <p class="text-xs text-slate-500 mb-3">
@@ -79,6 +82,21 @@
 
   <script>
     let allItems = [];
+    let activeSources = new Set(); // empty = show all
+
+    // Source → accent colour
+    const SOURCE_COLORS = {
+      sumroc:   { bg: 'bg-violet-950/70', text: 'text-violet-400', border: 'border-violet-700/50' },
+      pmr:      { bg: 'bg-cyan-950/70',   text: 'text-cyan-400',   border: 'border-cyan-700/50' },
+      tapedpmr: { bg: 'bg-pink-950/70',   text: 'text-pink-400',   border: 'border-pink-700/50' },
+      tsnr:     { bg: 'bg-amber-950/70',  text: 'text-amber-400',  border: 'border-amber-700/50' },
+      tpta:     { bg: 'bg-emerald-950/70','text': 'text-emerald-400', border: 'border-emerald-700/50' },
+    };
+    const DEFAULT_COLOR = { bg: 'bg-slate-700/70', text: 'text-slate-400', border: 'border-slate-600/50' };
+
+    function getColor(sourceId) {
+      return SOURCE_COLORS[sourceId] || DEFAULT_COLOR;
+    }
 
     function todayStr() {
       return new Date().toISOString().slice(0, 10);
@@ -114,11 +132,39 @@
         });
         document.getElementById('update-time').textContent = `最後更新：${timeStr}`;
 
+        buildSourceFilters(data.sources || []);
         render();
       } catch (e) {
         document.getElementById('update-time').textContent = '載入失敗';
         document.getElementById('error').classList.remove('hidden');
       }
+    }
+
+    function buildSourceFilters(sources) {
+      const container = document.getElementById('source-filters');
+      container.innerHTML = '';
+      sources.forEach(src => {
+        const col = getColor(src.id);
+        const btn = document.createElement('button');
+        btn.dataset.sid = src.id;
+        btn.textContent = src.name;
+        btn.className = `text-xs px-2.5 py-1 rounded-full border transition-all ${col.bg} ${col.text} ${col.border} opacity-40 hover:opacity-70`;
+        btn.addEventListener('click', () => toggleSource(src.id, btn, col));
+        container.appendChild(btn);
+      });
+    }
+
+    function toggleSource(sid, btn, col) {
+      if (activeSources.has(sid)) {
+        activeSources.delete(sid);
+        btn.classList.add('opacity-40');
+        btn.classList.remove('opacity-100', 'ring-1');
+      } else {
+        activeSources.add(sid);
+        btn.classList.remove('opacity-40');
+        btn.classList.add('opacity-100', 'ring-1');
+      }
+      render();
     }
 
     function render() {
@@ -129,6 +175,9 @@
 
       let items = [...allItems];
 
+      if (activeSources.size > 0) {
+        items = items.filter(item => activeSources.has(item.source_id));
+      }
       if (hidePast) {
         items = items.filter(item => !item.date_end || item.date_end >= today);
       }
@@ -171,6 +220,9 @@
         const dateEndLabel = item.date_end && item.date_end !== item.date_start
           ? `<span class="text-slate-500 text-xs">～${formatDateDisplay(item.date_end)}</span>` : '';
 
+        const col = getColor(item.source_id);
+        const sourceBadge = `<span class="text-xs ${col.bg} ${col.text} border ${col.border} px-2 py-0.5 rounded-full">${escHtml(item.source_name)}</span>`;
+
         return `
           <div class="bg-slate-800/50 border border-slate-700/40 rounded-xl p-4 hover:border-slate-600/60 transition-all ${cardOpacity}">
             <div class="flex gap-3 items-start">
@@ -191,6 +243,7 @@
                 ${item.location ? `<p class="mt-1 text-xs text-slate-500 truncate">${escHtml(item.location)}</p>` : ''}
 
                 <div class="mt-2 flex flex-wrap items-center gap-1.5">
+                  ${sourceBadge}
                   ${item.organizer ? `<span class="text-xs bg-slate-700/70 text-slate-400 px-2 py-0.5 rounded-full">${escHtml(item.organizer)}</span>` : ''}
                   ${item.credits ? `<span class="text-xs bg-blue-950/70 text-blue-400 px-2 py-0.5 rounded-full">積分 ${escHtml(item.credits)}</span>` : ''}
                   ${item.can_register ? `<span class="text-xs bg-green-950/70 text-green-400 px-2 py-0.5 rounded-full font-medium">✓ 可報名</span>` : ''}
