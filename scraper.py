@@ -5,6 +5,7 @@ import os
 import re
 import time
 from datetime import datetime, timezone
+from urllib.parse import urljoin
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; PMR-Radar/1.0; +https://github.com/alice870902/pmr-radar)"
@@ -127,9 +128,7 @@ def scrape_sumroc():
             des_el = row.select_one("div.des p")
             if not link_el or not title_el:
                 continue
-            href = link_el["href"]
-            if not href.startswith("http"):
-                href = BASE + "/" + href.lstrip("/")
+            href = urljoin(url, link_el["href"])
             if href in seen:
                 continue
             seen.add(href)
@@ -155,9 +154,7 @@ def scrape_sumroc():
                 title = link.text.strip()
                 if not title or len(title) < 4:
                     continue
-                href = link["href"]
-                if not href.startswith("http"):
-                    href = BASE + "/" + href.lstrip("/")
+                href = urljoin(url, link["href"])
                 if href in seen:
                     continue
                 seen.add(href)
@@ -194,9 +191,7 @@ def scrape_pmr():
             link_el = content_li.select_one("a")
             if not link_el:
                 continue
-            href = link_el["href"]
-            if not href.startswith("http"):
-                href = BASE + "/" + href.lstrip("/")
+            href = urljoin(url, link_el["href"])
             if href in seen:
                 continue
             seen.add(href)
@@ -236,9 +231,7 @@ def scrape_tapedpmr():
             link_el = title_li.select_one("a")
             if not link_el:
                 continue
-            href = link_el["href"]
-            if not href.startswith("http"):
-                href = BASE + "/" + href.lstrip("/")
+            href = urljoin(url, link_el["href"])
             if href in seen:
                 continue
             seen.add(href)
@@ -269,9 +262,7 @@ def scrape_tsnr():
             date_el = li.select_one("small")
             if not link_el or not title_el:
                 continue
-            href = link_el["href"]
-            if not href.startswith("http"):
-                href = BASE + "/" + href.lstrip("/")
+            href = urljoin(url, link_el["href"])
             if href in seen:
                 continue
             seen.add(href)
@@ -304,9 +295,7 @@ def scrape_tpta():
         link_el = entry.select_one("div.entry_title a")
         if not link_el:
             continue
-        href = link_el["href"]
-        if not href.startswith("http"):
-            href = BASE + "/" + href.lstrip("/")
+        href = urljoin(url, link_el["href"])
         if href in seen:
             continue
         seen.add(href)
