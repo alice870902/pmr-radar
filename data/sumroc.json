@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T03:15:32.963627+00:00",
+  "updated_at": "2026-07-15T08:27:11.879285+00:00",
   "sources": [
     {
       "id": "sumroc",
@@ -1334,6 +1334,21 @@
       "source_name": "台灣復健醫學會"
     },
     {
+      "id": "pmr-4479",
+      "type": "activity",
+      "title": "MABC-3兒童動作評估工具之施測、計分查表與臨床實作115.8.15 (共3時)(1.5點)",
+      "url": "https://www.pmr.org.tw/active_news/active_info.asp?/4479.html",
+      "location": "衛生福利部臺中醫院復能大樓第八會議室",
+      "organizer": "衛生福利部臺中醫院",
+      "credits": "",
+      "date_raw": "2026/08/15",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-15",
+      "can_register": false,
+      "source_id": "pmr",
+      "source_name": "台灣復健醫學會"
+    },
+    {
       "id": "pmr-4440",
       "type": "activity",
       "title": "115年度以家庭為中心早期療育專業研討會「嬰幼兒餵食困難面面觀」115.08.15(共3小時)(1.5點)(颱風原因 延期至8.15)",
@@ -1454,21 +1469,6 @@
       "source_name": "台灣復健醫學會"
     },
     {
-      "id": "pmr-4478",
-      "type": "activity",
-      "title": "115年兒童早期療育系列課程(共6時)：115.07.29 (1時)、115.08.14(1時)、115.08.22(3時)、115.08.24(1時)(0.5/0.5/1.5/0.5點)",
-      "url": "https://www.pmr.org.tw/active_news/active_info.asp?/4478.html",
-      "location": "羅東博愛醫院門診大樓三樓會議室",
-      "organizer": "羅東博愛醫院復健治療科",
-      "credits": "",
-      "date_raw": "2026/08/24",
-      "date_start": "2026-08-24",
-      "date_end": "2026-08-24",
-      "can_register": false,
-      "source_id": "pmr",
-      "source_name": "台灣復健醫學會"
-    },
-    {
       "id": "pmr-4471",
       "type": "activity",
       "title": "115年聯醫失智照護配方–治療師115.08.29(共6時40分)(3.3點)",
@@ -1559,6 +1559,21 @@
       "source_name": "台灣兒童復健醫學會"
     },
     {
+      "id": "tapedpmr-237",
+      "type": "activity",
+      "title": "MABC-3兒童動作評估工具之施測、計分查表與臨床實作 (合辦；積分：1.5)",
+      "url": "https://www.tapedpmr.org.tw/activity/info.asp?/237.html",
+      "location": "",
+      "organizer": "",
+      "credits": "",
+      "date_raw": "2026/08/15",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-15",
+      "can_register": false,
+      "source_id": "tapedpmr",
+      "source_name": "台灣兒童復健醫學會"
+    },
+    {
       "id": "tapedpmr-232",
       "type": "activity",
       "title": "書寫易讀性與視動整合之評估、實證治療與臨床應用 (積分：2)",
@@ -1589,6 +1604,21 @@
       "source_name": "台灣兒童復健醫學會"
     },
     {
+      "id": "tapedpmr-238",
+      "type": "activity",
+      "title": "「社會處方與員工關懷」研討會 (積分：3.5)",
+      "url": "https://www.tapedpmr.org.tw/activity/info.asp?/238.html",
+      "location": "",
+      "organizer": "",
+      "credits": "",
+      "date_raw": "2026/08/09",
+      "date_start": "2026-08-09",
+      "date_end": "2026-08-09",
+      "can_register": false,
+      "source_id": "tapedpmr",
+      "source_name": "台灣兒童復健醫學會"
+    },
+    {
       "id": "tapedpmr-231",
       "type": "activity",
       "title": "2026 台北醫學會-兒童復健醫學會期中研討會-兒童發展障礙之精準 預防與全人照護研討會 (積分：3.5)",
@@ -1604,6 +1634,21 @@
       "source_name": "台灣兒童復健醫學會"
     },
     {
+      "id": "tapedpmr-240",
+      "type": "activity",
+      "title": "2026台北醫學會-兒童神經發展障礙尖端醫療研討會（活動一）  (積分：1.5)",
+      "url": "https://www.tapedpmr.org.tw/activity/info.asp?/240.html",
+      "location": "",
+      "organizer": "",
+      "credits": "",
+      "date_raw": "2026/08/08",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-08",
+      "can_register": false,
+      "source_id": "tapedpmr",
+      "source_name": "台灣兒童復健醫學會"
+    },
+    {
       "id": "tapedpmr-230",
       "type": "activity",
       "title": "2026台北醫學會研討會(合辦；積分：1.3)",
@@ -1614,6 +1659,21 @@
       "date_raw": "2026/08/08",
       "date_start": "2026-08-08",
       "date_end": "2026-08-08",
+      "can_register": false,
+      "source_id": "tapedpmr",
+      "source_name": "台灣兒童復健醫學會"
+    },
+    {
+      "id": "tapedpmr-239",
+      "type": "activity",
+      "title": "2026 台北醫學會暨國際兒童神經發展重症暨腦性麻痺尖端照護系列  (積分：1)",
+      "url": "https://www.tapedpmr.org.tw/activity/info.asp?/239.html",
+      "location": "",
+      "organizer": "",
+      "credits": "",
+      "date_raw": "2026/08/07",
+      "date_start": "2026-08-07",
+      "date_end": "2026-08-07",
       "can_register": false,
       "source_id": "tapedpmr",
       "source_name": "台灣兒童復健醫學會"
@@ -1779,66 +1839,6 @@
       "date_raw": "2026/06/22",
       "date_start": "2026-06-22",
       "date_end": "2026-06-22",
-      "can_register": false,
-      "source_id": "tapedpmr",
-      "source_name": "台灣兒童復健醫學會"
-    },
-    {
-      "id": "tapedpmr-200",
-      "type": "activity",
-      "title": "評估不是終點， 而是起點： 以家庭為中心的標準化 評估與早期療育臨床成 效實踐 (合辦；積分：1.5)",
-      "url": "https://www.tapedpmr.org.tw/activity/info.asp?/200.html",
-      "location": "",
-      "organizer": "",
-      "credits": "",
-      "date_raw": "2026/06/14",
-      "date_start": "2026-06-14",
-      "date_end": "2026-06-14",
-      "can_register": false,
-      "source_id": "tapedpmr",
-      "source_name": "台灣兒童復健醫學會"
-    },
-    {
-      "id": "tapedpmr-207",
-      "type": "activity",
-      "title": "以家庭為中心：運用於特殊兒童的正向教養技巧",
-      "url": "https://www.tapedpmr.org.tw/activity/info.asp?/207.html",
-      "location": "",
-      "organizer": "",
-      "credits": "",
-      "date_raw": "2026/06/06",
-      "date_start": "2026-06-06",
-      "date_end": "2026-06-06",
-      "can_register": false,
-      "source_id": "tapedpmr",
-      "source_name": "台灣兒童復健醫學會"
-    },
-    {
-      "id": "tapedpmr-214",
-      "type": "activity",
-      "title": "發展遲緩兒童之聽力檢查及診斷",
-      "url": "https://www.tapedpmr.org.tw/activity/info.asp?/214.html",
-      "location": "",
-      "organizer": "",
-      "credits": "",
-      "date_raw": "2026/06/05",
-      "date_start": "2026-06-05",
-      "date_end": "2026-06-05",
-      "can_register": false,
-      "source_id": "tapedpmr",
-      "source_name": "台灣兒童復健醫學會"
-    },
-    {
-      "id": "tapedpmr-213",
-      "type": "activity",
-      "title": "脊髓性肌肉萎縮症患者的整體照護-基礎篇",
-      "url": "https://www.tapedpmr.org.tw/activity/info.asp?/213.html",
-      "location": "",
-      "organizer": "",
-      "credits": "",
-      "date_raw": "2026/05/30",
-      "date_start": "2026-05-30",
-      "date_end": "2026-05-30",
       "can_register": false,
       "source_id": "tapedpmr",
       "source_name": "台灣兒童復健醫學會"
@@ -2369,7 +2369,7 @@
       "source_name": "台灣運動醫學醫學會"
     },
     {
-      "id": "tps-957774",
+      "id": "tps-383253",
       "type": "activity",
       "title": "2026 台灣疼痛醫學會 全人整合醫學教育 系列工作坊  「基因、腸腦軸、食品毒素、營養與疼痛」",
       "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/2/3142",
@@ -2384,7 +2384,7 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-271314",
+      "id": "tps-899486",
       "type": "activity",
       "title": "Vision Interventional Pain Symposium (VIPS 2026)",
       "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/2/3109",
@@ -2399,7 +2399,7 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-387503",
+      "id": "tps-139598",
       "type": "activity",
       "title": "Vision Interventional Pain Symposium (VIPS 2026)-for Overseas",
       "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/2/3114",
@@ -2414,10 +2414,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-64013",
+      "id": "tps-92294",
       "type": "activity",
       "title": "VIPS-Essentials 2026 – Learning from the Master",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#56644",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#51765",
       "location": "",
       "organizer": "台灣疼痛醫學會",
       "credits": "Lecture＋工作坊（實作組）：16",
@@ -2429,10 +2429,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-771169",
+      "id": "tps-269889",
       "type": "activity",
       "title": "第三屆史丹佛連續性導管周邊神經阻斷術",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#98738",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#79425",
       "location": "",
       "organizer": "三軍總醫院、台灣麻醉醫學會、台灣疼痛醫學會",
       "credits": "A. 上午超音波課程：6",
@@ -2444,10 +2444,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-715021",
+      "id": "tps-982817",
       "type": "activity",
       "title": "2026台灣疼痛醫學會年會暨國際學術研討會",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#63747",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#13414",
       "location": "",
       "organizer": "台灣疼痛醫學會、奇美醫學中心",
       "credits": "20",
@@ -2459,10 +2459,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-537552",
+      "id": "tps-373095",
       "type": "activity",
       "title": "Asia Pacific Pain Summit (APPS)-曼谷",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#92273",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#5102",
       "location": "",
       "organizer": "台灣疼痛醫學會",
       "credits": "16",
@@ -2474,10 +2474,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-816541",
+      "id": "tps-615949",
       "type": "activity",
       "title": "台灣疼痛醫學會115 年度 疼痛專科醫師考試工作坊",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#6893",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#97509",
       "location": "",
       "organizer": "台灣疼痛醫學會",
       "credits": "8",
@@ -2489,10 +2489,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-953991",
+      "id": "tps-890975",
       "type": "activity",
       "title": "Vision Interventional Pain Symposium - Hualien Chapter (VIPS-Hualien 2026)",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#24813",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#11611",
       "location": "",
       "organizer": "台灣疼痛醫學會、花蓮慈濟醫院麻醉部疼痛科",
       "credits": "15",
