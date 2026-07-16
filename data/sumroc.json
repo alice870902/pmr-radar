@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T03:22:03.383661+00:00",
+  "updated_at": "2026-07-16T08:25:42.722374+00:00",
   "sources": [
     {
       "id": "sumroc",
@@ -189,7 +189,7 @@
       "date_raw": "2026.07.26",
       "date_start": "2026-07-26",
       "date_end": "2026-07-26",
-      "can_register": false,
+      "can_register": true,
       "source_id": "sumroc",
       "source_name": "中華民國醫用超音波學會"
     },
@@ -1844,10 +1844,10 @@
       "source_name": "台灣兒童復健醫學會"
     },
     {
-      "id": "tsnr-2BB73215532C5889",
+      "id": "tsnr-979A5C553C9F2C0E",
       "type": "activity",
       "title": "A型肉毒桿菌素於神經復健之臨床應用 - 從評估、規劃到注射策略",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=A30F248F3DDCC140&getId=2BB73215532C5889",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=929E028FC30F3C77&getId=979A5C553C9F2C0E",
       "location": "主題 : 為促進國內臨床人員對肉毒桿菌素注射之整合性理解，台灣神經復健醫學會特別舉辦本次研討會，以「A型肉毒桿菌素於神經復健之臨床應用 - 從評估、規劃到注射策略」為主軸。課程內容涵蓋腦中風肢體痙攣之健保規範與申請原則、臨床評估與注射計畫擬定，並深入探討上、下肢痙攣及頸部肌張力不全症的注射策略與臨床案例分享。\r\n\r\n◼ 時間：2026年 8 月 1 日（星期六）13:20-17:00。\r\n◼ 地點",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -1859,10 +1859,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-5D2AAC5A49FC1965",
+      "id": "tsnr-C2947AF591A20DA7",
       "type": "activity",
       "title": "第六屆日台韓神經復健醫學會年會",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=E80F3999D85E899A&getId=5D2AAC5A49FC1965",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=F665D32A977F8C60&getId=C2947AF591A20DA7",
       "location": "日期：2026年3月28~29日地點: 首爾高麗大學 (Korea University)",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -1874,10 +1874,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-246094FC08FEFBEB",
+      "id": "tsnr-EEE4E9C96633067D",
       "type": "activity",
       "title": "神經性吞嚥障礙研討會-從評估到臨床介入的整合策略",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=A30F248F3DDCC140&getId=246094FC08FEFBEB",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=929E028FC30F3C77&getId=EEE4E9C96633067D",
       "location": "隨著高齡化社會來臨與神經系統疾病盛行率增加，神經性吞嚥障礙已成為復健醫學與臨床照護中不可忽視的重要議題。吞嚥功能牽涉複雜的中樞與周邊神經調控、肌肉協調與感覺整合，其臨床表現多樣，若評估與介入不足，易導致吸入性肺炎、營養不良與生活品質下降，對病人與家庭造成沉重負擔。\r\n為促進國內臨床人員對神經性吞嚥障礙之整合性理解，台灣神經復健醫學會特別舉辦本次「神經性吞嚥障礙研討會」，以「從評估到臨床介入的整合策",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -1889,10 +1889,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-E468706DFAA5D3B4",
+      "id": "tsnr-831F12DA8ADC016B",
       "type": "activity",
       "title": "2026年 機器人復健工作坊",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=A30F248F3DDCC140&getId=E468706DFAA5D3B4",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=929E028FC30F3C77&getId=831F12DA8ADC016B",
       "location": "主題: 本工作坊聚焦於臨床導向的實務應用，內容涵蓋機器人復健之基本原理、適應症判斷、臨床決策思維，以及實際操作經驗分享，協助學員將相關技術有效整合至日常臨床照護中。本次課程以三型國產復健機器人為主軸，分別為下肢復健機器人MRG-P110（生產商：上銀科技）、外骨骼復健機器人 FREE Walk（生產商：福寶科技）與上肢復健機器人 Mirror Hand（生產商：富伯生醫）。課程中特別規劃實機操作與",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -1904,10 +1904,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-642E204FB6AB14D2",
+      "id": "tsnr-9CDA5CBC2193EA16",
       "type": "activity",
       "title": "114年期中研討會-腦中風肢體痙攣之A型肉毒桿菌素注射治療-臨床決策與案例分析工作坊",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=A30F248F3DDCC140&getId=642E204FB6AB14D2",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=929E028FC30F3C77&getId=9CDA5CBC2193EA16",
       "location": "台灣神經復健醫學會114年度期中學術研討會\r\n[主題：腦中風肢體痙攣之A型肉毒桿菌素（BoNT-A）注射治療--臨床決策與案例分析工作坊]\r\n\r\n中風後肢體痙攣為復健臨床中常見且影響功能恢復的重要課題。肉毒桿菌素A（BoNT-A, Botox®）注射治療已被證實為目前控制中樞性痙攣最具實證支持且安全有效的方法之一，不僅能改善關節活動與姿勢異常，更能促進復健訓練與日常功能的進步。\r\n本課程特別聚焦於",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -1919,10 +1919,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-F71862E571ABE8DD",
+      "id": "tsnr-FDAD44C0AB4A0652",
       "type": "activity",
       "title": "經顱磁刺激治療實務暨工作坊-進階班",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=A30F248F3DDCC140&getId=F71862E571ABE8DD",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=929E028FC30F3C77&getId=FDAD44C0AB4A0652",
       "location": "在今年4月與8月，台灣復健醫學會與台灣神經復健醫學會舉辦了二次顱磁刺激治療實務暨工作坊，著重在顱磁刺激的基礎原理與應用。\r\n而本次工作坊將著重在進階經顱磁刺激治療與應用，除了繼續邀請復健醫學領域具豐富治療經驗的專家，也邀請到神經科學與疼痛的專家學者一起分享臨床經驗及研究發展。對經顱磁刺激有基本了解的醫師為優先授課對象。\r\n\r\n時間：2025 年 11 月 23 日（星期日）09:00-16:00。",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -1934,10 +1934,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-1A9ABF806B61642D",
+      "id": "tsnr-7ECFD71B212E6EB9",
       "type": "activity",
       "title": "台灣復健醫學會期中研討會-痙攣治療面面觀",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=A30F248F3DDCC140&getId=1A9ABF806B61642D",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=929E028FC30F3C77&getId=7ECFD71B212E6EB9",
       "location": "時間：2025年9月20日\r\n地點：彰化基督教醫院\r\n主辦單位：台灣復健醫學會",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -1949,10 +1949,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-3C0464FE52B30D32",
+      "id": "tsnr-0EFF71B8D9643FED",
       "type": "activity",
       "title": "經顱磁刺激治療實務暨工作坊-基礎班",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=A30F248F3DDCC140&getId=3C0464FE52B30D32",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=929E028FC30F3C77&getId=0EFF71B8D9643FED",
       "location": "時間：2025年8月17日\r\n地點：中和\r\n主辦單位：台灣復健醫學會",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -1964,10 +1964,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-25CB63E50142ED04",
+      "id": "tsnr-FDA859D8943FC8AC",
       "type": "activity",
       "title": "肌電診斷學與超音波神經掃描與注射研討會Ⅱ",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=A30F248F3DDCC140&getId=25CB63E50142ED04",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=929E028FC30F3C77&getId=FDA859D8943FC8AC",
       "location": "日　　期：2025年8月9日(星期六) 9:00-17:00\r\n地　　點：臺大醫學院3樓302講堂(臺北市中正區仁愛路1段1號)\r\n主辦單位：台灣神經復健醫學會(TSNR)、財團法人台北市連倚南教授復健醫學教育基金會\r\n合辦單位：台灣復健醫學會、臺大醫院復健部\r\n繼續教育積分：臺灣復健醫學會5點\r\n\r\n講師與主持人（按出場序）：\r\n陳冠宇　臺大醫院復健部醫師（主持人）\r\n梁蕙雯　台灣神經復健醫學會",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -1979,10 +1979,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-772BD0848C8FA960",
+      "id": "tsnr-D28B669F5772219C",
       "type": "activity",
       "title": "機器人復健工作坊 II",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=A30F248F3DDCC140&getId=772BD0848C8FA960",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=929E028FC30F3C77&getId=D28B669F5772219C",
       "location": "機器人復健工作坊 II\r\n針對近年來各式復健機器人蓬勃發展，本工作坊將提供臨床應用的關鍵知識與實務技巧。課程內容聚焦於機器人復健的基本原理、操作實作與臨床應用決策，並提供完整的實機體驗，讓與會學員能深入了解各款機器人之適應對象與臨床效益。本次課程以二型國產復健機器人為主軸，分別為下肢復健機器人MRG-P110（生產商：上銀科技）與上肢復健機器人 Mirror Hand（生產商：富伯生醫）。完成課程",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -1994,10 +1994,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-D6DB5EF391B31979",
+      "id": "tsnr-1B8C227C247A93DF",
       "type": "activity",
       "title": "機器人復健工作坊 I",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=A30F248F3DDCC140&getId=D6DB5EF391B31979",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=929E028FC30F3C77&getId=1B8C227C247A93DF",
       "location": "機器人復健工作坊 I(台灣復健醫學會)\r\n時間:114/7/13\r\n地點:桃園長庚\r\n主辦:台灣復健醫學會",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2009,10 +2009,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-9C3E902F443A3EC0",
+      "id": "tsnr-E338DF7573ABC8F8",
       "type": "activity",
       "title": "顱磁刺激治療實務暨工作坊",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=A30F248F3DDCC140&getId=9C3E902F443A3EC0",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=929E028FC30F3C77&getId=E338DF7573ABC8F8",
       "location": "",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2024,10 +2024,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-933DD30FEBAB6374",
+      "id": "tsnr-BB606B06A60B6B14",
       "type": "activity",
       "title": "114年年會暨第五屆台韓日神經復健醫學會論壇議程",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=DDFD8EF520D43AF9&getId=933DD30FEBAB6374&page=2",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=868BE30F7C0AFCEA&getId=BB606B06A60B6B14&page=2",
       "location": "114年年會暨第五屆台韓日神經復健醫學會論壇議程\r\n一、會議簡介：\r\n第一部份：【口頭論文發表】由國內各大醫院進行神經復健議題進行研究發表。\r\n第二部份：【會員大會】由本會理事長主持、秘書處及各委員會主任委員報告，與會員進行雙向意見交流。\r\n第三部分：【2025年台灣神經復健醫學會年會暨第五屆台韓日神經復健醫學論壇】邀請來自台灣、韓國以及日本的專家學者分享神經復健領域的最新知識。\r\n二、主辦單位：",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2039,10 +2039,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-A440B382F8B3C42C",
+      "id": "tsnr-939D843D563C0DD4",
       "type": "activity",
       "title": "肌電診斷學與超音波神經掃描與注射研討會 I",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=9DCB274911FE4068&getId=A440B382F8B3C42C&page=2",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=3938B378FF3C0250&getId=939D843D563C0DD4&page=2",
       "location": "第二屆第1次學術研討會\r\n肌電診斷學與超音波神經掃描與注射研討會I\r\n日 期：2025年2月15日(星期六) 9:00-17:00\r\n地 點：臺大醫學院1樓102講堂(臺北市中正區仁愛路1段1號)\r\n主辦單位：台灣神經復健醫學會(TSNR)、財團法人台北市連倚南教授復健醫學教育基金會\r\n合辦單位：台灣復健醫學會、臺大醫院復健部",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2054,10 +2054,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-244EE4495F13BD1D",
+      "id": "tsnr-B30915CF6B176052",
       "type": "activity",
       "title": "113年期中研討會",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=9DCB274911FE4068&getId=244EE4495F13BD1D&page=2",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=3938B378FF3C0250&getId=B30915CF6B176052&page=2",
       "location": "第一屆第13次學術研討會\r\n時間：113年12月21日(星期六)\r\n地點：台北醫學大學後棟16樓胡水旺國際會議廳\r\n時間議程講者座長13:30起報到並領取選票13:50-14:00開場致詞14:00-14:10會務\r\n\t回顧與展望陳弘洲 秘書長\r\n\t陳適卿 理事長14:10-14:40Ultrasound and EMG for Peripheral Nerve Diagnostics and I",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2069,10 +2069,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-F6CE6DF69C064D84",
+      "id": "tsnr-CA6ADB471A9D370C",
       "type": "activity",
       "title": "第二屆第1次會員大會(第二屆理監事選舉及學術研討會)",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=9DCB274911FE4068&getId=F6CE6DF69C064D84&page=2",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=3938B378FF3C0250&getId=CA6ADB471A9D370C&page=2",
       "location": "台灣神經復健醫學會第二屆第一次會員大會、第二次理監事改選暨學術研討會\r\n時間：113年12月21日(星期六)\r\n地點：台北醫學大學後棟16樓胡水旺國際會議廳\r\n時間議程講者座長13:30起報到並領取選票13:50-14:00開場致詞台灣神經復健醫學會\r\n\t陳適卿 理事長14:00-14:10會務回顧與展望14:10-14:40Ultrasound and EMG for Peripheral Ne",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2084,10 +2084,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-38964C6F28F529D4",
+      "id": "tsnr-04361F93361C90DC",
       "type": "activity",
       "title": "系統性文獻回顧與統合分析研究專題工作坊",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=9DCB274911FE4068&getId=38964C6F28F529D4&page=2",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=3938B378FF3C0250&getId=04361F93361C90DC&page=2",
       "location": "第一屆第12次學術研討會-台灣復健醫學會2024年系統性文獻回顧與統合分析研究專題工作坊\r\n台灣復健醫學會2024年系統性文獻回顧與統合分析研究專題工作坊\r\n主辦單位：台灣復健醫學會、台灣神經復健醫學會\r\n合辦單位：衛生福利部雙和醫院復健醫學部\r\n學 分：台灣復健醫學會學分（上午視訊課程3分、下午實作課程1.5分）\r\n時 間：2024年11月30日 星期六，上午視訊課程8:30-12:00，下午實",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2099,10 +2099,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-2A7DF4DD2C0FF09E",
+      "id": "tsnr-3D841B3824B8928E",
       "type": "activity",
       "title": "第113年年會暨研討會",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=9DCB274911FE4068&getId=2A7DF4DD2C0FF09E&page=2",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=3938B378FF3C0250&getId=3D841B3824B8928E&page=2",
       "location": "第一屆第11次學術研討會\r\n時間：2024年3月10日(日)\r\n地點：台灣中油公司國光廳 (台北市信義區松仁路3號)\r\n註：接續大師論壇後直接於國光廳進行TSNR會員大會",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2114,10 +2114,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-E6AC7F4180DFA558",
+      "id": "tsnr-4D9709500DAEB48F",
       "type": "activity",
       "title": "第四屆『日台韓神經復健醫學會年會』-多樣性與神經復健",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=DDFD8EF520D43AF9&getId=E6AC7F4180DFA558&page=2",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=868BE30F7C0AFCEA&getId=4D9709500DAEB48F&page=2",
       "location": "第四屆『日台韓神經復健醫學會年會』-多樣性與神經復健\r\n2024年3月2日至3日於日本佐賀舉行日台韓神經復健醫學會年會，此會議由台日韓三國輪流舉辦，乃神經復健界一年一度的盛會。",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2129,10 +2129,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-15AF8BB5984947BE",
+      "id": "tsnr-50F17ACFE083C0CA",
       "type": "activity",
       "title": "112年期中研討會--rTMS之應用",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=9DCB274911FE4068&getId=15AF8BB5984947BE&page=2",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=3938B378FF3C0250&getId=50F17ACFE083C0CA&page=2",
       "location": "第一屆第10次學術研討會暨第5次理監事聯席會議主辦單位：台灣神經復健醫學會、台北醫學大學醫學系復健學科\r\n合辦單位：臺北醫學大學附設醫院復健醫學部、臺北市立萬芳醫院復健醫學部、衛生福利部雙和醫院復健醫學部\r\n學分：台灣復健醫學會3學分\r\n時間：112 年 12 月 23 日 (星期六) 下午 13:40-17:20\r\n地點：臺北醫學大學 誠樸廳(台北市信義區吳興街250號 醫學綜合大樓前棟4樓)",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2144,10 +2144,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-3A6F8DE72D040584",
+      "id": "tsnr-6BD49D0301E8EC1D",
       "type": "activity",
       "title": "神經性膀胱之核心基礎與臨床",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=9DCB274911FE4068&getId=3A6F8DE72D040584&page=2",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=3938B378FF3C0250&getId=6BD49D0301E8EC1D&page=2",
       "location": "2023神經復健研討會 - 神經性膀胱之核心基礎與臨床\r\n-112年台灣神經復健醫學會專題研討會-\r\n主辦單位：台灣神經復健醫學會(TSNR)、連倚南教授復健醫學教育基金會\r\n合辦單位：台灣復健醫學會\r\n時　　間：112年8月19日 (星期六) 下午13:00-17:00\r\n地　　點：國立臺灣大學醫學院附設醫院兒童醫院B1講堂 (台北市中山南路8號B1)\r\n致詞人介紹：（依出場順序）\r\n王亭貴 連",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2159,10 +2159,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-4F17E439A91DD284",
+      "id": "tsnr-9A6FEFF33DA5377E",
       "type": "activity",
       "title": "第三屆『韓日台神經復健醫學會年會』-神經復健中的數位醫療",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=DDFD8EF520D43AF9&getId=4F17E439A91DD284&page=2",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=868BE30F7C0AFCEA&getId=9A6FEFF33DA5377E&page=2",
       "location": "來自全台各地的神經復健醫學專家所組成的台灣代表團，在陳適卿理事長的帶領下，包含四位講者及兩位座長，於2023年3月25日至26日在韓國首爾，代表台灣神經復健醫學會及台灣復健醫學會參與韓日台神經復健醫學會年會，並發表演講，與國外專家學者分享台灣在關於輔助機器人、大數據資料庫分析、非侵入式腦部刺激以及急性後期照護等神經復健相關領域的最新研究及發展，獲得在場所有與會人員的高度讚賞。幾位講者與座長，與各國",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2174,10 +2174,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-CDFD5DBDA554C85B",
+      "id": "tsnr-AB2AA55098A1882F",
       "type": "activity",
       "title": "112年年會--復健工程與輔助科技在神經疾病之應用",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=9DCB274911FE4068&getId=CDFD5DBDA554C85B&page=2",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=3938B378FF3C0250&getId=AB2AA55098A1882F&page=2",
       "location": "112年年會--復健工程與輔助科技在神經疾病之應用\r\n\r\n時間:112/3/5(日)9:00-17:00\r\n地點:中油國光廳",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2189,10 +2189,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-570561289E4BCDE7",
+      "id": "tsnr-2B3A0AC740C32598",
       "type": "activity",
       "title": "神經復健評估專用工具專題",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=9DCB274911FE4068&getId=570561289E4BCDE7&page=2",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=3938B378FF3C0250&getId=2B3A0AC740C32598&page=2",
       "location": "第一屆第8次學術研討會-神經復健評估專用工具專題\r\n台灣神經復健醫學會學術研討會將於2023年2月11日(六)下午13時於羅東博愛醫院 住院大樓 5 樓大禮堂(265宜蘭縣羅東鎮南昌街83號)舉行。\r\n\r\n學術研討會議程如下:\r\n13:00~13:30 報 到\r\n13:30~13:40 開 場\r\n13:40~14:30 Measurement tools of autistic disorder",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2204,10 +2204,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-7B2931637DB26597",
+      "id": "tsnr-7E3B904FDCE29716",
       "type": "activity",
       "title": "111年期中研討會-智慧遠距復健",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=88CBF9099429BC0C&getId=7B2931637DB26597&page=3",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=F3ACF9E9B6589609&getId=7E3B904FDCE29716&page=3",
       "location": "第一屆第7次學術研討會-智慧遠距復健\r\n一、主辦單位：台灣復健醫學會\r\n二、合辦單位：苗栗市大千綜合醫院 復健科、台灣神經復健醫學會\r\n三、學分：台灣復健醫學會 3 學分\r\n四、題目：智慧遠距復健\r\n五、日期：111年10月1日 星期六 14:00~17:00 (晚宴時間17:30~20:00)\r\n六、地點：大千綜合醫院 碧英門診大樓 9樓 國際會議廳",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2219,10 +2219,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-DEA235BCC9AE774C",
+      "id": "tsnr-AAFA6FEA481CC5F5",
       "type": "activity",
       "title": "第二屆『台日韓神經復健研討會』-先進技術在臨床神經復健的應用",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=88CBF9099429BC0C&getId=DEA235BCC9AE774C&page=3",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=F3ACF9E9B6589609&getId=AAFA6FEA481CC5F5&page=3",
       "location": "第二屆台日韓神經復健研討會將於2022年4月23日(六)下午13時至4月24日(日)於線上舉行，議程如下:\r\n\r\n4/23(六)\r\n13:00-13:10 開幕式\r\n13:10-13:55 Ultrasound in Neuromodulation Applications\r\n13:55-14:40 AI for the Future of Healthcares\r\n14:45-15:20 Art",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2234,10 +2234,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-3AC907A31285D072",
+      "id": "tsnr-FA362FE5E62334A2",
       "type": "activity",
       "title": "IDDSI 國際吞嚥障礙飲食標準的推行與應用研討會",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=88CBF9099429BC0C&getId=3AC907A31285D072&page=3",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=F3ACF9E9B6589609&getId=FA362FE5E62334A2&page=3",
       "location": "『2022 IDDSI 國際吞嚥障礙飲食標準的推行與應用』研討會(第一屆第6次學術研討會)\r\nIDDSI 國際吞嚥障礙飲食標準分類系統，是吞嚥困難介入最夯的話題！目前各院所機構對吞嚥障礙患者的食物質地的定義和用語很模糊雜亂，既難以精確執行，也容易發生錯誤導致進食危險；IDDSI 可以準確描述適合吞嚥障礙患者的食物質地和液體稠度，對增進吞嚥安全有很大的幫助！\r\n本次講題將介紹 IDDSI 的緣起和科",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2249,10 +2249,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-29B089569373130F",
+      "id": "tsnr-A87B40C828A14E85",
       "type": "activity",
       "title": "111年年會-肉毒桿菌工作坊",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=88CBF9099429BC0C&getId=29B089569373130F&page=3",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=F3ACF9E9B6589609&getId=A87B40C828A14E85&page=3",
       "location": "台灣神經復健醫學會-肉毒桿菌注射工作坊\r\n時間：民國 111 年 3 月 13 日(星期日)上午 08:30\r\n地點：台灣中油公司 (台北市信義區松仁路3號)\r\n會場：台灣中油公司513室\r\n時間主題講者座長08:00-08:30報到08:30-08:35Opening Remarks台灣神經復健醫學會 陳適卿理事長08:35-08:50Past, Present, and Future of b",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2264,10 +2264,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-FA5F670105CFDCCA",
+      "id": "tsnr-BE6BBECD7AFEE8D1",
       "type": "activity",
       "title": "台灣神經復健醫學會第一季學術研討會",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=88CBF9099429BC0C&getId=FA5F670105CFDCCA&page=3",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=F3ACF9E9B6589609&getId=BE6BBECD7AFEE8D1&page=3",
       "location": "台灣神經復健醫學會第一季學術研討會議程如下:\r\n13:00-13:30 報到\r\n13:30-13:40 神經復健發展-學術與教育觀點\r\n13:40-14:10 腦波人機介面為基礎之復健系統\r\n14:10-14:40 Precision medicine of Parkinson’s disease\r\n14:40-15:10 神經復健於上肢運動治療的新發展\r\n15:10-15:25 茶敘、壁報論文展",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2279,10 +2279,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-079D762193792F1F",
+      "id": "tsnr-752DC6D4AC384C77",
       "type": "activity",
       "title": "110年期中研討會-機器人復健專題",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=88CBF9099429BC0C&getId=079D762193792F1F&page=3",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=F3ACF9E9B6589609&getId=752DC6D4AC384C77&page=3",
       "location": "台灣神經復健醫學會第四季學術研討會一、主辦單位：台灣復健醫學會、高醫學大學附設中和紀念醫院醫院復健部、 台灣神經復健醫學會、台灣復健工程暨輔具科技學會\r\n二、協辦單位：台灣物理治療學會、台灣職能治療學會 三、學分：台灣復健醫學會、物理治療學會、職能治療學會(學分認列中)\r\n三、時間：110 年 12 月 18 日 (星期六) 下午 13:50-17:05\r\n四、地點：高雄醫學大學附設中和紀念醫院",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2294,10 +2294,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-FAEA6018CD2CA2EC",
+      "id": "tsnr-52A082A9164E8AE8",
       "type": "activity",
       "title": "脊髓損傷之復健新進展",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=24401F5C92629165&getId=FAEA6018CD2CA2EC&page=3",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=558D4489A92E5F53&getId=52A082A9164E8AE8&page=3",
       "location": "台灣神經復健醫學會第三季學術研討會一、主辦單位：台灣復健醫學會、中山醫學大學附設醫院健醫學部、台灣神經復健醫學會二、學分：4學分三、主題：脊髓損傷之復健新進展四、日期：2021 年 9 月 4 日（星期六）五、地點：線上研討會",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2309,10 +2309,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-1AD323AC884B8B0E",
+      "id": "tsnr-B83851348EC4B7EA",
       "type": "activity",
       "title": "European Congress of NeuroRehabilitation 2021",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=375118CC4E5ECF6A&getId=1AD323AC884B8B0E&page=3",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=2CAD70A4632C1FA2&getId=B83851348EC4B7EA&page=3",
       "location": "European Congress of NeuroRehabilitation 2021\r\n時間：2021 年12月8日至12月11日 (星期三至星期六)",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2324,10 +2324,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-4BE48C21BB6D0F25",
+      "id": "tsnr-62719BBA0ECF5F61",
       "type": "activity",
       "title": "110年年會--神經復健進展",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=88CBF9099429BC0C&getId=4BE48C21BB6D0F25&page=3",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=F3ACF9E9B6589609&getId=62719BBA0ECF5F61&page=3",
       "location": "台灣神經復健醫學會第一屆第二次會員大會時間：民國 110 年 3 月 13 日(星期六)下午 12:30地點：台灣中油公司 (台北市信義區松仁路3號)會場：台灣中油公司一樓國光廳時間主題講者座長12:30-12:45報到秘書處12:45-12:50主席致詞理事長12:50-12:55秘書處報告秘書長12:55-13:15各委員會報告委員會主委13:15-13:20議題討論秘書長13:20-13:2",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2339,10 +2339,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-021873C89DC7ACA3",
+      "id": "tsnr-042ED14008BB7CB8",
       "type": "activity",
       "title": "109年年會暨研討會",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=88CBF9099429BC0C&getId=021873C89DC7ACA3&page=3",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=F3ACF9E9B6589609&getId=042ED14008BB7CB8&page=3",
       "location": "109年年會暨研討會\r\n時間:109年9月20日(日)下午12:45\r\n地點:林口長庚",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2354,10 +2354,10 @@
       "source_name": "台灣神經復健醫學會"
     },
     {
-      "id": "tsnr-8FB0B3948F552948",
+      "id": "tsnr-7C259F19BFFA7129",
       "type": "activity",
       "title": "Asian Oceanian Congress for Neurorehabilitation 2021",
-      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=375118CC4E5ECF6A&getId=8FB0B3948F552948&page=3",
+      "url": "https://www.tsnr.org.tw/showeducation.aspx?c=2CAD70A4632C1FA2&getId=7C259F19BFFA7129&page=3",
       "location": "Asian Oceanian Congress for Neurorehabilitation 2021\r\n時間：2021 年 8 月6 日至8月8日 (星期五至星期日)",
       "organizer": "台灣神經復健醫學會",
       "credits": "",
@@ -2894,7 +2894,7 @@
       "source_name": "台灣運動醫學醫學會"
     },
     {
-      "id": "tps-984202",
+      "id": "tps-672347",
       "type": "activity",
       "title": "2026 台灣疼痛醫學會 全人整合醫學教育 系列工作坊  「基因、腸腦軸、食品毒素、營養與疼痛」",
       "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/2/3142",
@@ -2909,10 +2909,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-706878",
+      "id": "tps-310641",
       "type": "activity",
       "title": "Vision Interventional Pain Symposium (VIPS 2026)",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#78775",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#21111",
       "location": "",
       "organizer": "台灣疼痛醫學會、台中慈濟醫院疼痛治療科、花蓮慈濟醫院麻醉部疼痛科",
       "credits": "Core Topic Lecture＋工作坊：16",
@@ -2924,10 +2924,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-575129",
+      "id": "tps-112071",
       "type": "activity",
       "title": "Vision Interventional Pain Symposium (VIPS 2026)-for Overseas",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#66254",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#85655",
       "location": "",
       "organizer": "台灣疼痛醫學會、台中慈濟醫院疼痛治療科、花蓮慈濟醫院麻醉部疼痛科",
       "credits": "Core Lecture + Workshop：",
@@ -2939,10 +2939,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-19303",
+      "id": "tps-696198",
       "type": "activity",
       "title": "VIPS-Essentials 2026 – Learning from the Master",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#11827",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#34981",
       "location": "",
       "organizer": "台灣疼痛醫學會",
       "credits": "Lecture＋工作坊（實作組）：16",
@@ -2954,10 +2954,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-92615",
+      "id": "tps-30368",
       "type": "activity",
       "title": "第三屆史丹佛連續性導管周邊神經阻斷術",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#81803",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#28445",
       "location": "",
       "organizer": "三軍總醫院、台灣麻醉醫學會、台灣疼痛醫學會",
       "credits": "A. 上午超音波課程：6",
@@ -2969,10 +2969,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-988840",
+      "id": "tps-162878",
       "type": "activity",
       "title": "2026台灣疼痛醫學會年會暨國際學術研討會",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#59201",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#77504",
       "location": "",
       "organizer": "台灣疼痛醫學會、奇美醫學中心",
       "credits": "20",
@@ -2984,10 +2984,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-559349",
+      "id": "tps-4059",
       "type": "activity",
       "title": "Asia Pacific Pain Summit (APPS)-曼谷",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#27494",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#88045",
       "location": "",
       "organizer": "台灣疼痛醫學會",
       "credits": "16",
@@ -2999,10 +2999,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-467639",
+      "id": "tps-187038",
       "type": "activity",
       "title": "台灣疼痛醫學會115 年度 疼痛專科醫師考試工作坊",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#87693",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#79364",
       "location": "",
       "organizer": "台灣疼痛醫學會",
       "credits": "8",
@@ -3014,10 +3014,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-633099",
+      "id": "tps-971736",
       "type": "activity",
       "title": "Vision Interventional Pain Symposium - Hualien Chapter (VIPS-Hualien 2026)",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#39152",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#15320",
       "location": "",
       "organizer": "台灣疼痛醫學會、花蓮慈濟醫院麻醉部疼痛科",
       "credits": "15",
