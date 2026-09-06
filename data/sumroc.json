@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T10:44:00.950697+00:00",
+  "updated_at": "2026-09-06T15:20:10.860563+00:00",
   "sources": [
     {
       "id": "sumroc",
@@ -1739,6 +1739,21 @@
       "source_name": "台灣物理治療學會"
     },
     {
+      "id": "tpta-2553",
+      "type": "activity",
+      "title": "Shirley Sahrmann團隊蒞臨台灣-動作損傷系統的動作診斷與治療：肩頸區",
+      "url": "https://www.tpta.org.tw/articles.php?type=courses&pid=2553",
+      "location": "陽明交通大學生醫工程館(研究大樓)六樓教室，台北市北投區立農街二段155號",
+      "organizer": "台灣物理治療學會",
+      "credits": "專業25.2點(申請中)",
+      "date_raw": "2026年11月6~8日，共三天",
+      "date_start": "2026年11月6~8日，共三天",
+      "date_end": "2026年11月6~8日，共三天",
+      "can_register": false,
+      "source_id": "tpta",
+      "source_name": "台灣物理治療學會"
+    },
+    {
       "id": "tpta-2552",
       "type": "activity",
       "title": "Vodder MLD Level 1 徒手淋巴引流第一階段國際認證課程",
@@ -2219,10 +2234,10 @@
       "source_name": "台灣運動醫學醫學會"
     },
     {
-      "id": "tps-368357",
+      "id": "tps-30825",
       "type": "activity",
       "title": "2026 台灣疼痛醫學會 全人整合醫學教育 系列工作坊  「基因、腸腦軸、食品毒素、營養與疼痛」",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#99398",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#96134",
       "location": "",
       "organizer": "台灣疼痛醫學會、台灣區域麻醉暨止痛醫學會",
       "credits": "台灣疼痛醫學會會員：10",
@@ -2234,10 +2249,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-175184",
+      "id": "tps-189809",
       "type": "activity",
       "title": "TSfN2026 – Interdisciplinary Neuroscience Congress",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#71699",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#662",
       "location": "",
       "organizer": "台灣基礎神經科學學會",
       "credits": "5",
@@ -2249,10 +2264,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-81292",
+      "id": "tps-881338",
       "type": "activity",
       "title": "Vision Interventional Pain Symposium (VIPS 2026)",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#78380",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#49136",
       "location": "",
       "organizer": "台灣疼痛醫學會、台中慈濟醫院疼痛治療科、花蓮慈濟醫院麻醉部疼痛科",
       "credits": "Core Topic Lecture＋工作坊：16",
@@ -2264,10 +2279,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-436352",
+      "id": "tps-78123",
       "type": "activity",
       "title": "Vision Interventional Pain Symposium (VIPS 2026)-for Overseas",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#66541",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#78779",
       "location": "",
       "organizer": "台灣疼痛醫學會、台中慈濟醫院疼痛治療科、花蓮慈濟醫院麻醉部疼痛科",
       "credits": "Core Lecture + Workshop：",
@@ -2279,10 +2294,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-104226",
+      "id": "tps-429844",
       "type": "activity",
       "title": "VIPS-Essentials 2026 – Learning from the Master",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#98679",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#993",
       "location": "",
       "organizer": "台灣疼痛醫學會",
       "credits": "Lecture＋工作坊（實作組）：16",
@@ -2294,10 +2309,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-876257",
+      "id": "tps-552582",
       "type": "activity",
       "title": "第三屆史丹佛連續性導管周邊神經阻斷術",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#75318",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#69648",
       "location": "",
       "organizer": "三軍總醫院、台灣麻醉醫學會、台灣疼痛醫學會",
       "credits": "A. 上午超音波課程：6",
@@ -2309,10 +2324,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-660974",
+      "id": "tps-263952",
       "type": "activity",
       "title": "2026台灣疼痛醫學會年會暨國際學術研討會",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#57247",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#28052",
       "location": "",
       "organizer": "台灣疼痛醫學會、奇美醫學中心",
       "credits": "20",
@@ -2324,10 +2339,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-987329",
+      "id": "tps-428598",
       "type": "activity",
       "title": "Asia Pacific Pain Summit (APPS)-曼谷",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#694",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#68447",
       "location": "",
       "organizer": "台灣疼痛醫學會",
       "credits": "16",
@@ -2339,10 +2354,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-90150",
+      "id": "tps-663646",
       "type": "activity",
       "title": "台灣疼痛醫學會115 年度 疼痛專科醫師考試工作坊",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#19548",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#13285",
       "location": "",
       "organizer": "台灣疼痛醫學會",
       "credits": "8",
@@ -2354,10 +2369,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-367619",
+      "id": "tps-216639",
       "type": "activity",
       "title": "Vision Interventional Pain Symposium - Hualien Chapter (VIPS-Hualien 2026)",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#27986",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#56867",
       "location": "",
       "organizer": "台灣疼痛醫學會、花蓮慈濟醫院麻醉部疼痛科",
       "credits": "15",
