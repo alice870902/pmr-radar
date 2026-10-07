@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T00:33:16.785748+00:00",
+  "updated_at": "2026-10-07T10:06:15.499035+00:00",
   "sources": [
     {
       "id": "sumroc",
@@ -989,6 +989,21 @@
       "source_name": "台灣復健醫學會"
     },
     {
+      "id": "pmr-4553",
+      "type": "activity",
+      "title": "2026長庚運動醫學第七屆年度學術研討會115.11.07(共4時50分)(3點)",
+      "url": "https://www.pmr.org.tw/active_news/active_info.asp?/4553.html",
+      "location": "林口長庚紀念醫院 復健大樓一樓 第一會議廳",
+      "organizer": "林口長庚紀念醫院",
+      "credits": "",
+      "date_raw": "2026/11/07",
+      "date_start": "2026-11-07",
+      "date_end": "2026-11-07",
+      "can_register": false,
+      "source_id": "pmr",
+      "source_name": "台灣復健醫學會"
+    },
+    {
       "id": "pmr-4515",
       "type": "activity",
       "title": "115.11.07臨床下肢生物力學培訓課程(共6時30分)、115.11.08臨床下肢生物力學培訓課程(共6時30分)(6.5/3點)",
@@ -999,6 +1014,21 @@
       "date_raw": "2026/11/07",
       "date_start": "2026-11-07",
       "date_end": "2026-11-07",
+      "can_register": false,
+      "source_id": "pmr",
+      "source_name": "台灣復健醫學會"
+    },
+    {
+      "id": "pmr-4554",
+      "type": "activity",
+      "title": "守護兒童「高」成長-實戰篇：以家庭為中心的運動處方工作坊115.11.14(共2時30分)(2.5點)",
+      "url": "https://www.pmr.org.tw/active_news/active_info.asp?/4554.html",
+      "location": "台大景福館一樓會議廳",
+      "organizer": "臺灣早期療育學會",
+      "credits": "",
+      "date_raw": "2026/11/14",
+      "date_start": "2026-11-14",
+      "date_end": "2026-11-14",
       "can_register": false,
       "source_id": "pmr",
       "source_name": "台灣復健醫學會"
@@ -1049,6 +1079,21 @@
       "source_name": "台灣復健醫學會"
     },
     {
+      "id": "pmr-4556",
+      "type": "activity",
+      "title": "2026癌症復健研討會-乳癌復健115.11.21(共3時20分)(3點)",
+      "url": "https://www.pmr.org.tw/active_news/active_info.asp?/4556.html",
+      "location": "臺大醫院復健大樓四樓 (台北市常德街1號)",
+      "organizer": "財團法人台北市連倚南教授復健醫學教育基金會",
+      "credits": "",
+      "date_raw": "2026/11/21",
+      "date_start": "2026-11-21",
+      "date_end": "2026-11-21",
+      "can_register": false,
+      "source_id": "pmr",
+      "source_name": "台灣復健醫學會"
+    },
+    {
       "id": "pmr-4526",
       "type": "activity",
       "title": "115 年11月南區地方季會課程115.11.22(共40分)(1點)",
@@ -1074,51 +1119,6 @@
       "date_raw": "2026/11/22",
       "date_start": "2026-11-22",
       "date_end": "2026-11-22",
-      "can_register": false,
-      "source_id": "pmr",
-      "source_name": "台灣復健醫學會"
-    },
-    {
-      "id": "pmr-4542",
-      "type": "activity",
-      "title": "115年兒童發展暨早期療育專業研討會「發展遲緩兒童之篩檢、幼兒語言發展與篩檢觀察」115.11.28(共2時)(1.5點)",
-      "url": "https://www.pmr.org.tw/active_news/active_info.asp?/4542.html",
-      "location": "童綜合醫院梧棲院區20樓視聽教室（臺中市梧棲區臺灣大道八段699號）",
-      "organizer": "童綜合醫院兒童發展聯合評估中心",
-      "credits": "",
-      "date_raw": "2026/11/28",
-      "date_start": "2026-11-28",
-      "date_end": "2026-11-28",
-      "can_register": false,
-      "source_id": "pmr",
-      "source_name": "台灣復健醫學會"
-    },
-    {
-      "id": "pmr-4541",
-      "type": "activity",
-      "title": "r-TMS 工作坊：結合多專業的治療實務經驗分享115.12.05(共5時40分)(4點)",
-      "url": "https://www.pmr.org.tw/active_news/active_info.asp?/4541.html",
-      "location": "衛生福利部台北醫院 8樓第一會議室",
-      "organizer": "衛生福利部台北醫院",
-      "credits": "",
-      "date_raw": "2026/12/05",
-      "date_start": "2026-12-05",
-      "date_end": "2026-12-05",
-      "can_register": false,
-      "source_id": "pmr",
-      "source_name": "台灣復健醫學會"
-    },
-    {
-      "id": "pmr-4532",
-      "type": "activity",
-      "title": "台灣復健醫學會2026年Cadaver Workshop (8時30分)(8點)",
-      "url": "https://www.pmr.org.tw/active_news/active_info.asp?/4532.html",
-      "location": "林口長庚醫院手術技能訓練中心（研究大樓8樓）",
-      "organizer": "台灣復健醫學會",
-      "credits": "",
-      "date_raw": "2026/12/05",
-      "date_start": "2026-12-05",
-      "date_end": "2026-12-05",
       "can_register": false,
       "source_id": "pmr",
       "source_name": "台灣復健醫學會"
@@ -2009,10 +2009,10 @@
       "source_name": "台灣運動醫學醫學會"
     },
     {
-      "id": "tps-270176",
+      "id": "tps-575093",
       "type": "activity",
       "title": "Vision Interventional Pain Symposium - Hualien Chapter (VIPS-Hualien 2027)",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/2/3181",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#94049",
       "location": "",
       "organizer": "台灣疼痛醫學會、花蓮慈濟醫院麻醉部疼痛科",
       "credits": "15",
@@ -2024,13 +2024,13 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-487516",
+      "id": "tps-163355",
       "type": "activity",
       "title": "超音波導引神經阻斷工作坊",
       "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/2/3185",
       "location": "",
       "organizer": "台灣疼痛醫學會、義大醫院麻醉部",
-      "credits": "報名時間：2026-10-05 12:00:00~2026-10-12 12:00:00",
+      "credits": "6",
       "date_raw": "2026/11/21",
       "date_start": "2026-11-21",
       "date_end": "2026-11-21",
@@ -2039,10 +2039,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-358729",
+      "id": "tps-717022",
       "type": "activity",
       "title": "2026 台灣疼痛醫學會 全人整合醫學教育 系列工作坊  「基因、腸腦軸、食品毒素、營養與疼痛」",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#50782",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#13242",
       "location": "",
       "organizer": "台灣疼痛醫學會、台灣區域麻醉暨止痛醫學會",
       "credits": "台灣疼痛醫學會會員：10",
@@ -2054,7 +2054,7 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-916688",
+      "id": "tps-526174",
       "type": "activity",
       "title": "TSfN2026 – Interdisciplinary Neuroscience Congress",
       "url": "https://tsfn.neuroscience.org.tw/registration",
@@ -2069,10 +2069,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-275390",
+      "id": "tps-97096",
       "type": "activity",
       "title": "Vision Interventional Pain Symposium (VIPS 2026)",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#2843",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#94272",
       "location": "",
       "organizer": "台灣疼痛醫學會、台中慈濟醫院疼痛治療科、花蓮慈濟醫院麻醉部疼痛科",
       "credits": "Core Topic Lecture＋工作坊：16",
@@ -2084,10 +2084,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-312449",
+      "id": "tps-625704",
       "type": "activity",
       "title": "Vision Interventional Pain Symposium (VIPS 2026)-for Overseas",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#71571",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#87549",
       "location": "",
       "organizer": "台灣疼痛醫學會、台中慈濟醫院疼痛治療科、花蓮慈濟醫院麻醉部疼痛科",
       "credits": "Core Lecture + Workshop：",
@@ -2099,10 +2099,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-800825",
+      "id": "tps-304761",
       "type": "activity",
       "title": "VIPS-Essentials 2026 – Learning from the Master",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#57904",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#21099",
       "location": "",
       "organizer": "台灣疼痛醫學會",
       "credits": "Lecture＋工作坊（實作組）：16",
@@ -2114,10 +2114,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-931853",
+      "id": "tps-721073",
       "type": "activity",
       "title": "第三屆史丹佛連續性導管周邊神經阻斷術",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#51536",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#19629",
       "location": "",
       "organizer": "三軍總醫院、台灣麻醉醫學會、台灣疼痛醫學會",
       "credits": "A. 上午超音波課程：6",
@@ -2129,7 +2129,7 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-574713",
+      "id": "tps-748420",
       "type": "activity",
       "title": "2026台灣疼痛醫學會年會暨國際學術研討會",
       "url": "https://tps.pain.org.tw/#top",
@@ -2144,10 +2144,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-489048",
+      "id": "tps-941753",
       "type": "activity",
       "title": "Asia Pacific Pain Summit (APPS)-曼谷",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#97720",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#15",
       "location": "",
       "organizer": "台灣疼痛醫學會",
       "credits": "16",
@@ -2159,10 +2159,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-590797",
+      "id": "tps-283322",
       "type": "activity",
       "title": "台灣疼痛醫學會115 年度 疼痛專科醫師考試工作坊",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#87095",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#39152",
       "location": "",
       "organizer": "台灣疼痛醫學會",
       "credits": "8",
@@ -2174,10 +2174,10 @@
       "source_name": "台灣疼痛醫學會"
     },
     {
-      "id": "tps-611937",
+      "id": "tps-588380",
       "type": "activity",
       "title": "Vision Interventional Pain Symposium - Hualien Chapter (VIPS-Hualien 2026)",
-      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#68346",
+      "url": "https://www.pain.org.tw/index.php/educlass_page/index/33/1/8#16480",
       "location": "",
       "organizer": "台灣疼痛醫學會、花蓮慈濟醫院麻醉部疼痛科",
       "credits": "15",
